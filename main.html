@@ -1,0 +1,278 @@
+<html lang="en">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Russo+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles-hafiz.css">
+    <link rel="stylesheet" href="css/style.css">
+
+
+    <style>
+        header {
+            background-image: url("https://images.pexels.com/photos/958545/pexels-photo-958545.jpeg?cs=srgb&dl=pexels-chan-walrus-958545.jpg&fm=jpg");
+            opacity: 100%;
+            z-index: -1;
+            display: block;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            object-fit: fill;
+            padding: 90px;
+
+        }
+
+        h1 {
+            text-align: center;
+            border: 3px whitesmoke;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            padding: auto;
+            background-color: rgb(245, 228, 228);
+            z-index: 2;
+
+
+        }
+
+        .bctx {
+            padding: 50px, 60px;
+            background-color: rgb(245, 228, 228);
+            ;
+            font-size: 30px;
+        }
+
+        p {
+            text-align: center;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            text-align: inherit;
+        }
+
+        .descriptive-line {
+            text-align: center;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+            overflow: hidden;
+            background-color: rgb(245, 228, 228);
+            ;
+            border-style: solid;
+            border-spacing: 5px;
+            border-radius: 5px;
+            border-color: rgb(222, 200, 171);
+
+        }
+
+        li {
+            float: left;
+            width: 25%;
+            line-height: 40px;
+
+        }
+
+        li a {
+            display: block;
+            color: black;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+
+            font-size: 24px;
+
+
+        }
+
+        /* Change the link color to #111 (black) on hover */
+        li a:hover {
+            background-color: bisque;
+        }
+
+        img {
+            padding: 20px;
+            height: 350px;
+            width: 350px;
+
+        }
+
+        .services {
+
+            margin-left: auto;
+            margin-right: auto;
+            width: 90%;
+
+        }
+
+        h2 {
+            text-align: center;
+
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: rgb(245, 228, 228);
+            ;
+
+        }
+
+        .footleft,
+        .footmid,
+        .footright {
+            width: 33.33%;
+            /**/
+            font-size: 20px;
+
+
+
+        }
+
+        .footleft {
+            float: left;
+            margin-top: -30px;
+            text-align: justify;
+
+        }
+
+        .footmid {
+            text-align: justify;
+            padding-left: 30%;
+            padding-right: 30%;
+
+        }
+
+        .footright {
+            float: right;
+            text-align: justify;
+            margin-top: -80px;
+
+
+
+        }
+
+
+        /*Increase fornts and paddings when using phones and tablets,make horisontal menus vertical if nessesary,make footer as a menu.*/
+        @media only screen and (max-width: 600px) {
+            header {
+                padding: 20px;
+            }
+
+            li {
+                width: 50%;
+                text-align: center;
+            }
+
+            .footleft,
+            .footmid,
+            .footright {
+                width: 100%;
+                text-align: center;
+                font-size: 35px;
+            }
+
+            footer {
+                padding: 0px;
+            }
+
+            .footmid {
+                padding: 50px 0;
+            }
+        }
+
+        @media only screen and (max-width: 1340px) {
+
+            /*.footmid{margin-top: 200px;}*/
+            .footright {
+                margin-top: -100px;
+            }
+
+            .services {
+                width: 80%;
+            }
+
+            img {
+                width: 100%;
+                height: max-content
+            }
+
+            ;
+
+            .footleft,
+            .footmid,
+            .footright {
+                font-size: 30px;
+                width: 100%;
+            }
+
+            li {
+                line-height: 40px;
+                font-size: 30px;
+            }
+
+        }
+    </style>
+
+</head>
+
+<header>
+    <title>IL Marino- Best Mediterranean Dishes Since 2009 </title>
+
+    <h1>IL MARINO</h1>
+    <div class="bctx">
+        <p class="descriptive-line">Best Mediterranean Dishes Since 2009</p>
+    </div>
+</header>
+
+<nav>
+    <ul>
+        <li><a href="./main.html">Home</a></li>
+        <li><a href="./menu.html">Menu</a></li>
+        <li><a href="./Order and Reservation.html">Orders and Reservations</a></li>
+        <li><a href="./Contact us.html">Contact Us</a></li>
+    </ul>
+</nav>
+
+
+<body>
+
+    <h2>Our Services</h2>
+    <div class="services">
+        <img src="./images/PizzaCloseup.jpg" alt="Food ordering">
+        <img src="./images/ChattingPeople.jpg" alt="Catering">
+        <img src="./images/BulkOrders.jpg" alt="Bulk Ordering">
+    </div>
+
+
+
+
+</body>
+<footer>
+    <div class="footleft">
+
+        <p>
+            Il Marino Restaurant
+            Address
+            Tel. +358 2373 1462
+        </p>
+    </div>
+    <div class="footmid">
+        <p>
+            2021-2022 &copy;, All rights reserved
+        </p>
+    </div>
+    <div class="footright">
+        <p>
+            Opening hours
+            Mn-Fr 9.30-22.30
+            Sat 10.30-23.00
+            Sun Closed
+        </p>
+    </div>
+
+
+
+
+
+</footer>
+
+
+
+</html>
